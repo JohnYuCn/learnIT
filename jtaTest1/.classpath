@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="avalon-framework.jar"/>
+	<classpathentry kind="lib" path="carol-iiop-delegate.jar"/>
+	<classpathentry kind="lib" path="carol-interceptors.jar"/>
+	<classpathentry kind="lib" path="carol.jar"/>
+	<classpathentry kind="lib" path="commons-cli.jar"/>
+	<classpathentry kind="lib" path="commons-collections.jar"/>
+	<classpathentry kind="lib" path="commons-logging-api.jar"/>
+	<classpathentry kind="lib" path="geronimo-corba_3.0_spec.jar"/>
+	<classpathentry kind="lib" path="geronimo-jms_1.1_spec.jar"/>
+	<classpathentry kind="lib" path="howl.jar"/>
+	<classpathentry kind="lib" path="irmi.jar"/>
+	<classpathentry kind="lib" path="jacorb-idl.jar"/>
+	<classpathentry kind="lib" path="jacorb.jar"/>
+	<classpathentry kind="lib" path="jakarta-regexp.jar"/>
+	<classpathentry kind="lib" path="jcup.jar"/>
+	<classpathentry kind="lib" path="joram-client.jar"/>
+	<classpathentry kind="lib" path="joram-mom.jar"/>
+	<classpathentry kind="lib" path="joram-shared.jar"/>
+	<classpathentry kind="lib" path="jotm-client.jar"/>
+	<classpathentry kind="lib" path="jotm-core.jar"/>
+	<classpathentry kind="lib" path="jotm-datasource.jar"/>
+	<classpathentry kind="lib" path="jotm-jms.jar"/>
+	<classpathentry kind="lib" path="jotm-standalone.jar"/>
+	<classpathentry kind="lib" path="log4j.jar"/>
+	<classpathentry kind="lib" path="logkit.jar"/>
+	<classpathentry kind="lib" path="monolog.jar"/>
+	<classpathentry kind="lib" path="ow2-connector-1.5-spec.jar"/>
+	<classpathentry kind="lib" path="ow2-jta-1.1-spec.jar"/>
+	<classpathentry kind="lib" path="xapool.jar" sourcepath="C:/Users/Administrator/.m2/repository/com/experlog/xapool/1.5.0/xapool-1.5.0-sources.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-5.1.17.jar"/>
+	<classpathentry kind="lib" path="ojdbc6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
