@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tvcms/!svn/ver/678/source/tvcms/src/cn/tvcms/cms/plugin/service
+END
+SendMailServiceImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tvcms/!svn/ver/609/source/tvcms/src/cn/tvcms/cms/plugin/service/SendMailServiceImp.java
+END
+AdvertService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/347/source/tvcms/src/cn/tvcms/cms/plugin/service/AdvertService.java
+END
+SmsPlatformService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tvcms/!svn/ver/678/source/tvcms/src/cn/tvcms/cms/plugin/service/SmsPlatformService.java
+END
+MessageBoardService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tvcms/!svn/ver/422/source/tvcms/src/cn/tvcms/cms/plugin/service/MessageBoardService.java
+END

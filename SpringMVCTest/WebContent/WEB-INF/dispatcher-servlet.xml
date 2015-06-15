@@ -22,8 +22,7 @@
 	<!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射.注意：感觉这是默认的配置 -->
 	<bean
 		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
-	<!-- 业务bean,以自动绑定名称的方式被注入到Controllser中 -->
-	<bean id="cm" class="cn.johnyu.web.test.service.impl.CustomerManagerImpl"></bean>
+	
 
 	<!-- 文件上传的能用解析器  -->
 	<bean id="multipartResolver"

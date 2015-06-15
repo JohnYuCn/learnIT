@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/column
+END
+columnLeft.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/column/columnLeft.jsp
+END
+columnSetting.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/column/columnSetting.jsp
+END
+column.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/column/column.jsp
+END
+queryColumn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/column/queryColumn.jsp
+END

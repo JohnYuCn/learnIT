@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/member
+END
+activeUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/607/source/tvcms/WebContent/WEB-INF/template/member/activeUser.jsp
+END
+queryMember.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/member/queryMember.jsp
+END
+addMember.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/member/addMember.jsp
+END

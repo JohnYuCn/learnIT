@@ -1,0 +1,561 @@
+<!DOCTYPE html SYSTEM "http://www.indonez.com/xhtml1-iframe.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cube - Retail Business Template</title>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/noscript.css" rel="stylesheet" type="text/css" media="screen,all" id="noscript" />
+
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="js/jquery.hoverIntent.minified.js"></script>
+<script type="text/javascript" src="js/megamenu.js"></script>
+<script type="text/javascript">
+   $(function(){ 	
+		//Tab Jquery
+		$(".tab_content").hide(); 
+		$("ul.tabs li:first").addClass("active").show(); 
+		$(".tab_content:first").show(); 
+		$("ul.tabs li").click(function() {
+			$("ul.tabs li").removeClass("active");
+			$(this).addClass("active"); 
+			$(".tab_content").hide(); 
+			var activeTab = $(this).find("a").attr("href"); 
+			$(activeTab).fadeIn(); 
+			return false;
+		});
+		$('#img-slide-large').cycle({
+			fx:     'fade',
+			speed:  'slow',
+			timeout: 0,
+			pager:  '#nav-thumb',
+			pagerAnchorBuilder: function(idx, slide) {
+				// return sel string for existing anchor
+				return '#nav-thumb li:eq(' + (idx) + ') a';
+			}
+		});
+     });
+</script>
+</head>
+
+<body>	
+	<div id="container">
+    	
+        <div id="top-container">
+        
+        	<!-- BEGIN OF HEADER -->
+        	<div id="header">
+            
+            	<!-- begin of top-flag -->
+            	<div id="flag">
+                	<img src="images/flag/us-flag.jpg" alt="" class="flag-class" /> <a href="#">English</a>
+                    <img src="images/flag/ina-flag.jpg" alt="" class="flag-class" /> <a href="#">Indonesia</a>
+                </div>
+                <!-- end of top-flag -->
+                
+                <!-- begin of logo -->
+                <div id="logo-wrapper">
+                	<div id="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+                </div>
+                <!-- end of logo -->
+                
+                <!-- begin of mainmenu -->
+                <div id="mainmenu">
+                  	<ul id="topnav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Products</a>
+                            <div class="sub">
+                                <ul class="drop-text">
+                                    <li>
+                                    <p>Here's an example of a paragraph inside the drop-down panel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam nostrudas exercitation ullamco laboris nisi ut aliquip ex ea commodo occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.</p>
+                                    </li>
+                                </ul>
+                                <ul class="drop-product">
+                                    <li><h2>Cube Series</h2></li>
+                                    <li><a href="product-detail.html">
+                                    	<span class="menu-img"><img src="images/menu-img.jpg" alt="" /></span>
+                                        <span class="menu-title">
+                                        	Cube HD X2 725<br/>
+                                            <span class="small-desc">some description of product</span>
+                                        </span>
+                                        </a>                                    
+                                    </li>
+                                    <li><a href="product-detail.html">
+                                    	<span class="menu-img"><img src="images/menu-img.jpg" alt="" /></span>
+                                        <span class="menu-title">
+                                        	Cube HD X2 725<br/>
+                                            <span class="small-desc">some description of product</span>
+                                        </span>
+                                        </a>                                    
+                                    </li>
+                                    <li><a href="product-detail.html">
+                                    	<span class="menu-img"><img src="images/menu-img.jpg" alt="" /></span>
+                                        <span class="menu-title">
+                                        	Cube HD X2 725<br/>
+                                            <span class="small-desc">some description of product</span>
+                                        </span>
+                                        </a>                                    
+                                    </li>
+                                    <li><a href="product-detail.html">
+                                    	<span class="menu-img"><img src="images/menu-img.jpg" alt="" /></span>
+                                        <span class="menu-title">
+                                        	Cube HD X2 725<br/>
+                                            <span class="small-desc">some description of product</span>
+                                        </span>
+                                        </a>                                    
+                                    </li>
+                                    <li><a href="product-detail.html">
+                                    	<span class="menu-img"><img src="images/menu-img.jpg" alt="" /></span>
+                                        <span class="menu-title">
+                                        	Cube HD X2 725<br/>
+                                            <span class="small-desc">some description of product</span>
+                                        </span>
+                                        </a>                                    
+                                    </li>
+                                </ul>
+                                <ul class="drop-link">
+                                    <li><h2>Another Pages</h2></li>
+                                    <li><a href="element.html">Element Page</a></li>
+                                    <li><a href="product.html">Product list Page</a></li>
+                                    <li><a href="testimonials.html">Testimonials Page</a></li>
+                                    <li><a href="portfolio.html">Portfolio Page</a></li>
+                                    <li><a href="pricing.html">Pricing Plan</a></li>
+                                    <li><a href="services.html">Services Page</a></li>
+                                    <li><a href="faq.html">FAQ Page</a></li>
+                                    <li><a href="fullwidth.html">Fullwidth Page</a></li>
+                                    <li><a href="404.html">404 Page</a></li>
+                                </ul>                      
+                            </div>
+                        </li>
+                        <li><a href="wheretobuy.html">Where to Buy</a></li> 
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="support.html">Support</a></li>                    
+                    </ul>
+                </div> 
+                <!-- end of mainmenu -->
+                           
+            </div>
+            <!-- END OF HEADER -->   
+            
+            <!-- BEGIN OF CONTENT -->
+            <div id="midbox-container-inner">
+            	<div id="midbox-inner-bg"></div>
+            	<div id="midbox-inner">
+                	
+                    <!-- begin of page title -->
+                    <div id="page-title">
+                    	<h1>Product</h1>
+                    </div>
+                    <!-- end of page title -->
+                    
+                    <!-- begin of award content -->
+                    <div id="bread-search-column">
+                    	<div id="breadcumb">                   	
+                    		<span class="bread-img"><img src="images/home-icon.png" alt="" class="bread-img" /></span>
+                            <span class="bread-txt">&raquo; cube hd x2</span>
+                        </div>
+                        <div id="search-box">                        	
+                        	<form id="search" action="#" method="get">
+                            <fieldset class="search-fieldset">
+      						<input type="text" id="s" value="search here..." onblur="if (this.value == ''){this.value = 'search here...'; }" onfocus="if (this.value == 'search here...') {this.value = ''; }" />
+                            <input type="submit" class="go" value="" />
+                            </fieldset>      						
+      						</form>                            
+                        </div>                   
+                    </div>
+                    <!-- end of award content -->
+                    
+                </div>
+                
+                <div id="content">
+                	<div class="maincontent">
+                    
+                    	<!-- begin of product description -->
+                        <div id="product-description">
+                            <div class="image-column">
+                                <img src="images/detail-img.jpg" alt="" />
+                            </div>
+                            <div class="description-text">
+                                <h1>Cube HD X2</h1>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <ul class="circle">
+                                    <li>Choose from five vibrant colors to complement your style</li>
+                                    <li>Powered by Boxee®  Media Player</li>
+                                    <li>Add the power you need with up to Intel® Pentium Dual Core™</li> 
+                                    <li>Save more of what matters with the optional 1TB hard drive</li>                           
+                                </ul>
+                                <a href="http://twitter.com/share" class="twitter-share-button">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                            </div>
+                        </div>
+                        <!-- end of product description -->
+                        
+                        <!-- begin of product tab -->
+                        <ul class="tabs">
+                            <li><a href="#tab1">Features</a></li>
+                            <li><a href="#tab2">Specifications</a></li>
+                            <li><a href="#tab3">Awards</a></li> 
+                            <li><a href="#tab4">Gallery</a></li>             
+                        </ul>
+                        
+                        <div class="tab_container">
+                        	
+                            <!-- begin of tab features -->
+                            <div id="tab1" class="tab_content">                        
+                                <div class="tab-content-left">
+                                	<h3>Anything do with Cube HD X2</h3>
+                                    <p>At vero eos accusamus et iusto odio dignissi ducimus qui blanditiis praesen tium voluptatum deleniti atque corrupti quos dolores et quas molestias excep turi sint occaecati cupiditate non provident, similique sunt culpa qui officia</p>
+                                    <img src="images/tab image/tab-icon1.jpg" alt="" class="imgleft tab-icon" />
+                                    <p><strong>Work with Cube</strong><br/>
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam</p>
+                                    
+                                    <img src="images/tab image/tab-icon2.jpg" alt="" class="imgleft tab-icon" />
+                                    <p><strong>Play with Cube</strong><br/>
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam</p>
+                                    
+                                    <img src="images/tab image/tab-icon3.jpg" alt="" class="imgleft tab-icon" />
+                                    <p><strong>Entertainment with with Cube</strong><br/>
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam</p>
+                                </div>
+                                <div class="tab-content-right">
+                                	<img src="images/tab image/tab-img1.jpg" alt="" />
+                                </div>
+                                
+                                <hr/>
+                                
+                                <div class="tab-content-left">
+                                	<img src="images/tab image/tab-img2.jpg" alt="" />
+                                </div>
+                                <div class="tab-content-right">
+                                	<h3>Vibrant color &amp; Attractive UI</h3>
+                                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur illum dolorem eum fugiat quo voluptas nulla pariatur</p>
+                                    <div class="content-left-mini">
+                                    	<img src="images/tab image/tab-icon4.jpg" alt="" class="imgleft tab-icon2" /><h5>Many color and skins</h5>
+                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus</p>
+                                    </div>
+                                    <div class="content-right-mini">
+                                    	<img src="images/tab image/tab-icon5.jpg" alt="" class="imgleft tab-icon2" /><h5>Good looking UI</h5>
+                                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus</p>
+                                    </div>	
+                                </div>
+                                
+                                <hr/>
+                                
+                                <div class="tab-features-column">
+                                	<div class="features-icon">
+                                    	<img src="images/tab image/tab-icon6.jpg" alt="" />
+                                    </div>
+                                    <div class="features-desc">
+                                    	<h5>Using latest processor</h5>
+                                        <p>Temporibus autem quibusdam eta aut officiis debitis aut rerum neces sitatibus saepe eveniet ut et volupi tates repudiandae sint et molestiae</p>
+                                    </div>
+                                </div>
+                                <div class="tab-features-column">
+                                	<div class="features-icon">
+                                    	<img src="images/tab image/tab-icon7.jpg" alt="" />
+                                    </div>
+                                    <div class="features-desc">
+                                    	<h5>Small power consumption</h5>
+                                        <p>Temporibus autem quibusdam eta aut officiis debitis aut rerum neces sitatibus saepe eveniet ut et volupi tates repudiandae sint et molestiae</p>
+                                    </div>
+                                </div>
+                                <div class="tab-features-column">
+                                	<div class="features-icon">
+                                    	<img src="images/tab image/tab-icon8.jpg" alt="" />
+                                    </div>
+                                    <div class="features-desc">
+                                    	<h5>Large storage media</h5>
+                                        <p>Temporibus autem quibusdam eta aut officiis debitis aut rerum neces sitatibus saepe eveniet ut et volupi tates repudiandae sint et molestiae</p>
+                                    </div>
+                                </div>
+                                <div class="tab-features-column-last">
+                                	<div class="features-icon">
+                                    	<img src="images/tab image/tab-icon9.jpg" alt="" />
+                                    </div>
+                                    <div class="features-desc">
+                                    	<h5>Stay connected with WIFI</h5>
+                                        <p>Temporibus autem quibusdam eta aut officiis debitis aut rerum neces sitatibus saepe eveniet ut et volupi tates repudiandae sint et molestiae</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of tab features -->
+                            
+                            <!-- begin of tab specification -->                            
+                            <div id="tab2" class="tab_content">
+                            	<div class="spec-column">
+                                	<img src="images/tab image/tab-img3.jpg" alt="" class="tab-img" />
+                                    <h3>Audio/Video Out</h3>
+                                    <ul class="general-list">
+                                        <li>HDMI 1.3 interface up to 1080p</li>                    
+                                        <li>Composite Audio / Video</li>                                
+                                        <li>Y/ Pb / Pr Video</li>
+                                        <li>SPDIF coaxial (digital audio)</li>
+                                        <li>SPDIF Optical TOSLink (digital audio)</li>
+                                    </ul>
+                                    
+                                    <hr/>
+                                    
+                                    <h3>USB Supported</h3>
+                                    <ul class="general-list">
+                                        <li>USB 3.0 and 2.0 Interfaces</li>                    
+                                        <li>Add ports with 3.0 USB hubs</li>                                
+                                        <li>2x USB 2.0 (USB-A)</li>
+                                        <li>1x USB 3.0 Slave Port (USB-B)</li>
+                                    </ul>
+                                    
+                                    <hr/>
+                                    
+                                    <h3>Network - Wireless</h3>
+                                    <ul class="general-list">
+                                        <li>Wireless WLAN 802.11b/g/n 300Mbps</li>                    
+                                        <li>Supports WLAN security WEP, WPA</li>                                
+                                        <li>Supports WLAN Peer-to-Peer </li>
+                                    </ul>
+                                    
+                                    <hr/>
+                                    
+                                    <h3>Video Codecs Supported</h3>
+                                    <ul class="general-list">
+                                        <li>MPEG-1 / MPEG-2 / MPEG-4 SP/ASP/AVC</li>                    
+                                        <li>(H.264 | x264) / XviD / DivX / WMV9 (VC-1)</li>                                
+                                        <li>RealVideo 8/9/10 (up to 720P)</li>
+                                    </ul>
+                                    
+                                    <hr/>
+                                    
+                                    <h3>Audio Formats Supported</h3>
+                                    <ul class="general-list">
+                                        <li>MP3 / MP2 / WMA / AAC / FLAC / WAV /</li>                    
+                                        <li>OGG Vorbis / PCM / LPCM / MS-ADPCM /</li>                                
+                                        <li>LC-AAC / HE-AAC / COOK / RA-Lossless</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="spec-column">
+                                	<img src="images/tab image/tab-img4.jpg" alt="" class="tab-img" />
+                                    <h3>Storage Supported</h3>
+                                    <ul class="general-list">
+                                        <li>3.5" SATA/SATA2 HDD up to 2TB</li>                    
+                                        <li>2.5" HDD support via adaptor frame</li> 
+                                    </ul>
+                                    
+                                    <hr/>
+                                    
+                                    <h3>Media Cards Supported</h3>
+                                    <ul class="general-list">
+                                        <li>SD, SDHC (SD High Capacity),</li>                    
+                                        <li>MMC, MS, MSPro</li>
+                                    </ul>
+                                    
+                                    <hr/>
+                                    
+                                    <h3>Ext File System Supported</h3>
+                                    <ul class="general-list">
+                                        <li>FAT, FAT32, NTFS, EXT3, HFS+</li>
+                                    </ul>
+                                    
+                                    <hr/>
+                                    
+                                    <h3>Network - Wired</h3>
+                                    <ul class="general-list">
+                                        <li>Gigabit 1Gbps</li>
+                                    </ul>
+                                    
+                                    <hr/>
+                                    
+                                    <h3>Network - Wireless Built-In</h3>
+                                    <ul class="general-list">
+                                        <li>Wireless-N via with dual antenna</li>
+                                    </ul>
+                                    
+                                    <hr/>
+                                    
+                                    <h3>Video Formats Supported</h3>
+                                    <ul class="general-list">
+                                        <li>AVI / MKV / TS / TP / TRP / M2TS / MPG /</li>
+                                        <li>MP4 / MOV / M4V / VOB / ISO / DVD-ISO</li>
+                                        <li>IFO / DAT / WMV / ASF / RM / RMVB / BD-ISO</li>
+                                        <li>FLV resolution up to 720p / 1080i / 1080p</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="spec-column-last">
+                                	<img src="images/tab image/tab-img5.jpg" alt="" class="tab-img" />
+                                </div>    
+                            </div>
+                            <!-- end of tab specification -->  
+                            
+                            <!-- begin of tab awards -->
+                            <div id="tab3" class="tab_content">                                
+                            	<div class="tab-content-left">
+                                	<div class="awards-box"><img src="images/award1.png" alt="" /></div><!-- awards 1 -->
+                                    <div class="awards-desc">
+                                        <h5>Anandtech</h5>
+                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+                                        <ul class="review-star">
+                                        	<li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <hr/>
+                                    
+                                    <div class="awards-box"><img src="images/award3.png" alt="" /></div><!-- awards 2 -->
+                                    <div class="awards-desc">
+                                        <h5>Tom's Hardware</h5>
+                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+                                        <ul class="review-star">
+                                        	<li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <hr/>
+                                    
+                                    <div class="awards-box"><img src="images/award5.png" alt="" /></div><!-- awards 3 -->
+                                    <div class="awards-desc">
+                                        <h5>Home Theater</h5>
+                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+                                        <ul class="review-star">
+                                        	<li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-content-right">
+                                	<div class="awards-box"><img src="images/award2.png" alt="" /></div><!-- awards 4 -->
+                                    <div class="awards-desc">
+                                        <h5>PC World</h5>
+                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+                                        <ul class="review-star">
+                                        	<li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <hr/>
+                                    
+                                    <div class="awards-box"><img src="images/award4.png" alt="" /></div><!-- awards 5 -->
+                                    <div class="awards-desc">
+                                        <h5>CNET Asia</h5>
+                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+                                        <ul class="review-star">
+                                        	<li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <hr/>
+                                    
+                                    <div class="awards-box"><img src="images/award6.png" alt="" /></div><!-- awards 6 -->
+                                    <div class="awards-desc">
+                                        <h5>CHIP Online</h5>
+                                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+                                        <ul class="review-star">
+                                        	<li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                            <li><img src="images/tab image/review-star.jpg" alt="" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of tab awards -->
+                            
+                            <!-- begin of tab gallery -->
+                            <div id="tab4" class="tab_content">                                
+                            	<div id="img-slide">
+                                    <div id="img-slide-large">
+                                        <img src="images/tab image/gallery1.jpg" alt="" />
+                                        <img src="images/tab image/gallery2.jpg" alt="" class="slide-img-nojs" />
+                                        <img src="images/tab image/gallery3.jpg" alt="" class="slide-img-nojs" />
+                                        <img src="images/tab image/gallery4.jpg" alt="" class="slide-img-nojs" />
+                                        <img src="images/tab image/gallery5.jpg" alt="" class="slide-img-nojs" />
+                                        <img src="images/tab image/gallery6.jpg" alt="" class="slide-img-nojs" />
+                                        <img src="images/tab image/gallery7.jpg" alt="" class="slide-img-nojs" />
+                                        <img src="images/tab image/gallery8.jpg" alt="" class="slide-img-nojs" />
+                                        <img src="images/tab image/gallery9.jpg" alt="" class="slide-img-nojs" />
+                                    </div>
+                                    <div id="img-slide-thumb">
+                                        <ul id="nav-thumb">
+                                            <li><a href="#"><img src="images/tab image/gallery1.jpg" alt="" /></a></li>
+                                            <li><a href="#"><img src="images/tab image/gallery2.jpg" alt="" /></a></li>
+                                            <li class="last-thumb"><a href="#"><img src="images/tab image/gallery3.jpg" alt="" /></a></li>
+                                            <li><a href="#"><img src="images/tab image/gallery4.jpg" alt="" /></a></li>
+                                            <li><a href="#"><img src="images/tab image/gallery5.jpg" alt="" /></a></li>
+                                            <li class="last-thumb"><a href="#"><img src="images/tab image/gallery6.jpg" alt="" /></a></li>
+                                            <li><a href="#"><img src="images/tab image/gallery7.jpg" alt="" /></a></li>
+                                            <li><a href="#"><img src="images/tab image/gallery8.jpg" alt="" /></a></li>
+                                            <li class="last-thumb"><a href="#"><img src="images/tab image/gallery9.jpg" alt="" /></a></li>
+                                        </ul>
+                                    </div>
+                                 </div>
+                            </div>
+                            <!-- end of tab gallery -->                           
+                                                 
+                        </div>
+                        <!-- end of product tab -->  
+                        
+                    </div>
+                </div>
+                            
+            </div>
+            <!-- END OF CONTENT -->
+            
+            <!-- BEGIN OF FOOTER -->
+            <div id="bottom-container">
+            	<div id="footer">
+                	<div class="logo-coloumn"><img src="images/logo-footer.png" alt="" /></div>
+                    <div class="link-column">
+                    	<ul id="footer-menu1">
+                            <li><a href="#">Firmware Download</a></li>
+                            <li><a href="#">Where to Buy</a></li>                    
+                            <li><a href="#">FAQ</a></li>                                
+                            <li><a href="#">Manage</a></li>
+                            <li><a href="#">Support</a></li>    
+                        </ul>
+                        <ul id="footer-menu2">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Press</a></li>                    
+                            <li><a href="#">Jobs</a></li>                                
+                            <li><a href="#">Become a Partner</a></li>
+                            <li><a href="#">Developer</a></li>
+                            <li><a href="#">Privacy</a></li>                                
+                            <li><a href="#">DMCA</a></li>
+                            <li><a href="#">Term of Use</a></li>    
+                        </ul>
+                        <p>&copy; 2011 Cube, Inc.  All rights reserved</p>
+                    </div>
+                    <div class="fb-like">
+                    	<iframe frameborder="0" scrolling="no" style="border: medium none; overflow: hidden; width: 60px; height: 60px;" src="http://www.facebook.com/plugins/like.php?href=http://www.indonez.com/&amp;layout=box_count&amp;show_faces=false&amp;width=66&amp;action=like&amp;colorscheme=light"></iframe>
+                    </div>
+                </div>            
+            </div>
+            <!-- END OF FOOTER -->
+            
+    	</div>
+                   	       
+    </div>      
+<script type="text/javascript">$('#noscript').remove();</script>     
+
+</body>
+</html>

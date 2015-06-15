@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tvcms/!svn/ver/713/source/tvcms/src/cn/tvcms/cms/system/controller
+END
+WebServiceController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tvcms/!svn/ver/696/source/tvcms/src/cn/tvcms/cms/system/controller/WebServiceController.java
+END
+UserSettingsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tvcms/!svn/ver/712/source/tvcms/src/cn/tvcms/cms/system/controller/UserSettingsController.java
+END
+MailSettingController.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tvcms/!svn/ver/605/source/tvcms/src/cn/tvcms/cms/system/controller/MailSettingController.java
+END
+SystemPowerController.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tvcms/!svn/ver/691/source/tvcms/src/cn/tvcms/cms/system/controller/SystemPowerController.java
+END
+DBManagementController.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tvcms/!svn/ver/580/source/tvcms/src/cn/tvcms/cms/system/controller/DBManagementController.java
+END
+SystemSettingController.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tvcms/!svn/ver/712/source/tvcms/src/cn/tvcms/cms/system/controller/SystemSettingController.java
+END
+MessagePushController.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tvcms/!svn/ver/650/source/tvcms/src/cn/tvcms/cms/system/controller/MessagePushController.java
+END
+TVService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/696/source/tvcms/src/cn/tvcms/cms/system/controller/TVService.java
+END
+CodeItemController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tvcms/!svn/ver/713/source/tvcms/src/cn/tvcms/cms/system/controller/CodeItemController.java
+END

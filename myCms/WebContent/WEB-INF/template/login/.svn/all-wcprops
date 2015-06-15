@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tvcms/!svn/ver/747/source/tvcms/WebContent/WEB-INF/template/login
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tvcms/!svn/ver/572/source/tvcms/WebContent/WEB-INF/template/login/main.jsp
+END
+homeRight.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tvcms/!svn/ver/744/source/tvcms/WebContent/WEB-INF/template/login/homeRight.jsp
+END
+common.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/login/common.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/736/source/tvcms/WebContent/WEB-INF/template/login/header.jsp
+END
+home.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/login/home.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/login/login.jsp
+END
+sidebar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tvcms/!svn/ver/631/source/tvcms/WebContent/WEB-INF/template/login/sidebar.jsp
+END
+left.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tvcms/!svn/ver/747/source/tvcms/WebContent/WEB-INF/template/login/left.jsp
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/login/footer.jsp
+END
+test.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tvcms/!svn/ver/362/source/tvcms/WebContent/WEB-INF/template/login/test.jsp
+END

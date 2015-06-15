@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tvcms/!svn/ver/750/source/tvcms/WebContent/WEB-INF/template/system
+END
+queryDBAndClass.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/system/queryDBAndClass.jsp
+END
+returnErrorPage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/system/returnErrorPage.jsp
+END
+static.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tvcms/!svn/ver/750/source/tvcms/WebContent/WEB-INF/template/system/static.jsp
+END
+codeItemRight.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/system/codeItemRight.jsp
+END
+queryAuth.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/system/queryAuth.jsp
+END
+returnAlert1.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/730/source/tvcms/WebContent/WEB-INF/template/system/returnAlert1.jsp
+END
+codeItem.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/system/codeItem.jsp
+END
+codeItemRightUpdate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/system/codeItemRightUpdate.jsp
+END
+powerSetting.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/system/powerSetting.jsp
+END
+UserSettings.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/system/UserSettings.jsp
+END
+authCheck.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/system/authCheck.jsp
+END
+queryClassField.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/system/queryClassField.jsp
+END
+tvserviceJumpView.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/system/tvserviceJumpView.jsp
+END
+codeItemLeft.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/system/codeItemLeft.jsp
+END
+returnAlert.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/730/source/tvcms/WebContent/WEB-INF/template/system/returnAlert.jsp
+END
+queryMessagePush.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/system/queryMessagePush.jsp
+END
+returnPage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/system/returnPage.jsp
+END
+setting.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/system/setting.jsp
+END
+powerAddLower.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/system/powerAddLower.jsp
+END
+mailSetting.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/system/mailSetting.jsp
+END

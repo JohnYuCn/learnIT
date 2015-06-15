@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*----------------------------------------------------
+                 Cube  - CSS File
+------------------------------------------------------*/
+.slide-content-wrapper {
+	position:absolute;
+	top:-428px;
+	left:0;	
+	width:100%;
+	height:90px;
+}
+#slide-nav{
+	display:none;
+}
+.box-news-content ul li.news-nojs{
+	display:none;
+}
+#accessories-nav{
+	display:none;
+}
+.box-accesories{
+	margin-top:-20px;
+}
+.box-accesories ul li.acces-nojs{
+	display:none;
+}
+ul.sponsor-list{
+	width:187px;
+	height:100%;
+	margin-left:14px;
+	padding:7px 0px 0px 7px;
+	background-color:#e2e2e2;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	float:left;
+}
+.sponsor-list li{
+	width:180px;
+	height:100px;
+	margin:0px 0px 7px 0px;
+	list-style-type:none;
+	display:inline-block;
+	float:left;
+}
+.slide-img-nojs{
+	display:none;
+}

@@ -1,0 +1,165 @@
+/* common use*/
+*{
+	padding:0px;
+	margin:0px;
+	color:#555;
+	font-family:"Microsoft Yahei",arial;}
+
+li{
+	list-style-type:none;
+	line-height:180%;}
+
+img{border:0; 
+}
+table { border-collapse:collapse; }
+html { overflow:-moz-scrollbars-vertical; }
+
+a{color:#FFFFFF;text-decoration:none;}
+a:hover {text-decoration:underline;color:#FFFFFF;}
+a:active{text-decoration:underline;}
+
+.LineLink a{text-decoration:underline;}
+.LineLink a:hover {text-decoration:none;color:#CC0000;}
+
+.ColorLink a {color:#1C5CC7;}
+.ColorLink a:hover {color:#cc0000;}
+
+.WidthTab{
+	width:10px;
+	height:1px;
+	float:left;}	
+.HeightTab{
+	height:10px;
+	width:1px;}	
+
+body{
+	background:url("../img/login-blurry-bg.jpg") no-repeat top center;
+	font-size:12px;
+	color:#075D6C;
+	padding-top:0px;
+	min-height:100%;
+	}
+
+.mains{
+	width:100%;
+	height:100%;
+	overflow:hidden;}
+
+
+.mains .inners{
+	margin:auto;
+	width:980px;
+	}
+
+.mains .inners .login{
+	width:350px;
+	}
+
+
+			
+ .CopyR{
+	margin:auto;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:10px;
+	padding-top:20px;}
+
+
+.login .center .inner{
+	background-color: white;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 40px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin-bottom: 15px;
+    width: 380px;
+    height: 380px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -240px 0 0 -190px;
+    -webkit-transition: all 1s 0.5s;
+    -moz-transition: all 1s 0.5s;
+    transition: all 1s 0.5s;
+	}
+.login .center .inner #innnertalbe,.login .center .inner #innnertalbe td{width:100%;}	
+.login .center .inner input{
+      height: 48px;
+      font-size: 15px;
+      box-shadow: none;
+      border-radius: 0;
+      border: 0;
+      border-bottom: 1px solid #d6d6d6;
+      padding-left: 0;
+      padding-right: 0;
+      background: transparent;
+	  text-indent:2px;}
+.login .center .inner input:hover{
+	border-bottom: 1px solid #007AFF;
+}
+.form-control {
+display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+color: #555;
+vertical-align: middle;
+background-color: white;
+border: 1px solid #CCC;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.login .center .inner .LoginSub{
+display: inline-block;
+padding:0;
+margin-bottom: 15px;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid transparent;
+border-radius: 4px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;background-color: #007AFF;
+border-color: #007AFF;width:100%; float:left; color:#fff;	}
+.login .center .inner .LoginSub:hover{
+	
+	background:#fff; color:#007AFF;}	
+
+
+.login .center .inner  .verifycode{
+	width:100%; margin-bottom:15px;}
+
+/* clearfix */
+.clearfix:after{
+	content:" ";
+	display:block;
+	visibility:hidden;
+	height:0;
+	clear:both;
+}
+.clearfix {
+	clear:both;
+}
+.clearbox {
+	clear:both; 
+	width:996px; 
+	margin:0 auto; 
+	height:0; 
+	overflow:hidden;}
+.clear { 
+	height:1%; 
+	overflow:hidden; }	
+				

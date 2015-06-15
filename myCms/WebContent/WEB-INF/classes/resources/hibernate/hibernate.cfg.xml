@@ -1,0 +1,68 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+    	<property name="dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+        <!-- 引入需要映射的类 -->
+       
+        <mapping class="cn.tvcms.cms.pojo.TvcmsColumn"/>
+        <mapping class="cn.tvcms.cms.pojo.Cont"/>
+        <mapping class="cn.tvcms.cms.pojo.SystemSetting"/>
+        <mapping class="cn.tvcms.cms.pojo.UserSet"/>
+        <mapping class="cn.tvcms.cms.pojo.SystemPower"/>
+        <mapping class="cn.tvcms.cms.pojo.UserGroup"/>
+        <mapping class="cn.tvcms.cms.pojo.UserGroupPower"/>
+        <mapping class="cn.tvcms.cms.pojo.User"/>
+        <mapping class="cn.tvcms.cms.pojo.TemplateCatalog"/>
+        <mapping class="cn.tvcms.cms.pojo.Template"/>
+        <mapping class="cn.tvcms.cms.pojo.Member"/>
+        <mapping class="cn.tvcms.cms.pojo.UserLoginLog"/>
+        <mapping class="cn.tvcms.cms.pojo.MessageBoard"/>
+        <mapping class="cn.tvcms.cms.pojo.ServicesCategory"/>
+        <mapping class="cn.tvcms.cms.pojo.Advert"/>
+        <mapping class="cn.tvcms.cms.pojo.SmsPlatformSet"/>
+        <mapping class="cn.tvcms.cms.pojo.SendSmsRecord"/>
+     
+        <mapping class="cn.tvcms.cms.pojo.Comment"/>
+        <mapping class="cn.tvcms.cms.pojo.MailList"/>
+        <mapping class="cn.tvcms.cms.pojo.MailListGroup"/>
+        <mapping class="cn.tvcms.cms.pojo.MailUtil"/>
+        <mapping class="cn.tvcms.cms.pojo.UVRecord"/>
+		 <mapping class="cn.tvcms.cms.pojo.MessagePush"/>
+        <mapping class="cn.tvcms.cms.pojo.Authorization"/>
+        <mapping class="cn.tvcms.cms.pojo.ContComments"/>
+        <mapping class="cn.tvcms.shop.pojo.Brand"/>
+        <mapping class="cn.tvcms.shop.pojo.ModelStyle"/>
+        <mapping class="cn.tvcms.shop.pojo.Order"/>
+        <mapping class="cn.tvcms.shop.pojo.OrderAccepter"/>
+        <mapping class="cn.tvcms.shop.pojo.OrderDistribution"/>
+        <mapping class="cn.tvcms.shop.pojo.OrderInvoice"/>
+        <mapping class="cn.tvcms.shop.pojo.OrderModify"/>
+        <mapping class="cn.tvcms.shop.pojo.OrderPayInfo"/>
+        <mapping class="cn.tvcms.shop.pojo.OrderPrice"/>
+        <mapping class="cn.tvcms.shop.pojo.OrderProduct"/>
+        <mapping class="cn.tvcms.shop.pojo.OrderProductAtt"/>
+        <mapping class="cn.tvcms.shop.pojo.OrderStatusInfo"/>
+        <mapping class="cn.tvcms.shop.pojo.Product"/>
+        <mapping class="cn.tvcms.shop.pojo.ProductAttribute"/>
+        <mapping class="cn.tvcms.shop.pojo.ProductClassify"/>
+        <mapping class="cn.tvcms.shop.pojo.ProductGroup"/>
+        <mapping class="cn.tvcms.shop.pojo.ProductModel"/>
+        <mapping class="cn.tvcms.shop.pojo.ProductPrice"/>
+        <mapping class="cn.tvcms.shop.pojo.ProductStock"/>
+        <mapping class="cn.tvcms.shop.pojo.ShopCart"/>
+        <mapping class="cn.tvcms.shop.pojo.UserAddress"/>
+        <mapping class="cn.tvcms.shop.pojo.UserFavorite"/>
+        <mapping class="cn.tvcms.shop.pojo.ProAttScreen"/>
+        <mapping class="cn.tvcms.cms.pojo.VisitStatistics"/>
+        <mapping class="cn.tvcms.cms.pojo.Author"/>
+        <mapping class="cn.tvcms.cms.pojo.Source"/>
+        
+        
+        
+    </session-factory>
+</hibernate-configuration>

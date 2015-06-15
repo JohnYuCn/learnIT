@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tvcms/!svn/ver/681/source/tvcms/src/cn/tvcms/cms/publish/tag
+END
+ContTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tvcms/!svn/ver/681/source/tvcms/src/cn/tvcms/cms/publish/tag/ContTag.java
+END
+PageTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tvcms/!svn/ver/412/source/tvcms/src/cn/tvcms/cms/publish/tag/PageTag.java
+END
+IncludTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tvcms/!svn/ver/546/source/tvcms/src/cn/tvcms/cms/publish/tag/IncludTag.java
+END
+PropTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tvcms/!svn/ver/245/source/tvcms/src/cn/tvcms/cms/publish/tag/PropTag.java
+END
+AdvertListTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tvcms/!svn/ver/347/source/tvcms/src/cn/tvcms/cms/publish/tag/AdvertListTag.java
+END
+SystemSettingTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/241/source/tvcms/src/cn/tvcms/cms/publish/tag/SystemSettingTag.java
+END
+AdvertTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tvcms/!svn/ver/372/source/tvcms/src/cn/tvcms/cms/publish/tag/AdvertTag.java
+END
+ColumnListTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tvcms/!svn/ver/219/source/tvcms/src/cn/tvcms/cms/publish/tag/ColumnListTag.java
+END
+ServiceListTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/350/source/tvcms/src/cn/tvcms/cms/publish/tag/ServiceListTag.java
+END
+ColumnTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tvcms/!svn/ver/681/source/tvcms/src/cn/tvcms/cms/publish/tag/ColumnTag.java
+END
+IfTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tvcms/!svn/ver/245/source/tvcms/src/cn/tvcms/cms/publish/tag/IfTag.java
+END
+CommentListTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/464/source/tvcms/src/cn/tvcms/cms/publish/tag/CommentListTag.java
+END
+ContListTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tvcms/!svn/ver/410/source/tvcms/src/cn/tvcms/cms/publish/tag/ContListTag.java
+END
+ServiceTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/594/source/tvcms/src/cn/tvcms/cms/publish/tag/ServiceTag.java
+END
+CommentTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/427/source/tvcms/src/cn/tvcms/cms/publish/tag/CommentTag.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/template
+END
+sidebarLeft.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/template/sidebarLeft.jsp
+END
+catalogReturnPage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/template/catalogReturnPage.jsp
+END
+templateReturnPage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/template/templateReturnPage.jsp
+END
+sidebar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/template/sidebar.jsp
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/template/list.jsp
+END
+template.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/template/template.jsp
+END
+error_fileupload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/template/error_fileupload.jsp
+END
+editCatalog.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/template/editCatalog.jsp
+END

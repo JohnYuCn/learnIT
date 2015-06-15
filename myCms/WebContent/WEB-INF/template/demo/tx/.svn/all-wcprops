@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/template/demo/tx
+END
+success.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/template/demo/tx/success.jsp
+END
+fail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/template/demo/tx/fail.jsp
+END

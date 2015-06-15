@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tvcms/!svn/ver/713/source/tvcms/src/cn/tvcms/shop/pojo
+END
+OrderPayInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/OrderPayInfo.java
+END
+ProductModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/ProductModel.java
+END
+ProductPrice.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/688/source/tvcms/src/cn/tvcms/shop/pojo/ProductPrice.java
+END
+ProductAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/713/source/tvcms/src/cn/tvcms/shop/pojo/ProductAttribute.java
+END
+ProAttScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/ProAttScreen.java
+END
+OrderDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/OrderDistribution.java
+END
+Order.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/Order.java
+END
+OrderProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/OrderProduct.java
+END
+ProductClassify.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/ProductClassify.java
+END
+UserFavorite.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/UserFavorite.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/Test.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/Product.java
+END
+ModelStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tvcms/!svn/ver/688/source/tvcms/src/cn/tvcms/shop/pojo/ModelStyle.java
+END
+OrderAccepter.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/OrderAccepter.java
+END
+OrderModify.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/OrderModify.java
+END
+ShopCart.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/ShopCart.java
+END
+ProductStock.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/ProductStock.java
+END
+UserAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/UserAddress.java
+END
+OrderProductAtt.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/OrderProductAtt.java
+END
+Brand.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/Brand.java
+END
+OrderInvoice.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/OrderInvoice.java
+END
+OrderStatusInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/OrderStatusInfo.java
+END
+ProductGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/ProductGroup.java
+END
+OrderPrice.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tvcms/!svn/ver/683/source/tvcms/src/cn/tvcms/shop/pojo/OrderPrice.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/user
+END
+queryUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/user/queryUser.jsp
+END
+queryUserField.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/user/queryUserField.jsp
+END
+group.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/user/group.jsp
+END
+user.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/user/user.jsp
+END
+queryLoginLog.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/user/queryLoginLog.jsp
+END

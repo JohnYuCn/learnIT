@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tvcms/!svn/ver/682/source/tvcms/WebContent/WEB-INF/lib
+END
+jsoup-1.7.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tvcms/!svn/ver/257/source/tvcms/WebContent/WEB-INF/lib/jsoup-1.7.3.jar
+END
+commons-beanutils-1.9.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/192/source/tvcms/WebContent/WEB-INF/lib/commons-beanutils-1.9.2.jar
+END
+spring-aop-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-aop-3.2.8.RELEASE.jar
+END
+spring-test-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-test-3.2.8.RELEASE.jar
+END
+aopalliance.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/aopalliance.jar
+END
+spring-webmvc-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-webmvc-3.2.8.RELEASE.jar
+END
+spring-context-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-context-3.2.8.RELEASE.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/jstl.jar
+END
+spring-beans-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-beans-3.2.8.RELEASE.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/dom4j-1.6.1.jar
+END
+spring-jms-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-jms-3.2.8.RELEASE.jar
+END
+spring-tx-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-tx-3.2.8.RELEASE.jar
+END
+commons-io-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tvcms/!svn/ver/653/source/tvcms/WebContent/WEB-INF/lib/commons-io-2.4.jar
+END
+xstream-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/xstream-1.3.1.jar
+END
+javassist-3.18.1-GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/javassist-3.18.1-GA.jar
+END
+mail-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tvcms/!svn/ver/597/source/tvcms/WebContent/WEB-INF/lib/mail-1.4.jar
+END
+spring-context-support-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-context-support-3.2.8.RELEASE.jar
+END
+IK_Analyzer_2012FF_hf1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/257/source/tvcms/WebContent/WEB-INF/lib/IK_Analyzer_2012FF_hf1.jar
+END
+spring-aspects-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-aspects-3.2.8.RELEASE.jar
+END
+jboss-logging-3.1.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/jboss-logging-3.1.0.GA.jar
+END
+commons-fileupload-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/653/source/tvcms/WebContent/WEB-INF/lib/commons-fileupload-1.3.1.jar
+END
+javamelody.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tvcms/!svn/ver/682/source/tvcms/WebContent/WEB-INF/lib/javamelody.jar
+END
+poi-3.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tvcms/!svn/ver/398/source/tvcms/WebContent/WEB-INF/lib/poi-3.7.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/commons-logging-1.1.jar
+END
+standard-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/standard-1.1.2.jar
+END
+spring-instrument-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-instrument-3.2.8.RELEASE.jar
+END
+spring-webmvc-portlet-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-webmvc-portlet-3.2.8.RELEASE.jar
+END
+jaxen-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/jaxen-1.1.1.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/log4j-1.2.15.jar
+END
+jackson-mapper-lgpl-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/jackson-mapper-lgpl-1.2.1.jar
+END
+pinyin4j-2.5.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tvcms/!svn/ver/170/source/tvcms/WebContent/WEB-INF/lib/pinyin4j-2.5.0.jar
+END
+lucene-core-4.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/257/source/tvcms/WebContent/WEB-INF/lib/lucene-core-4.7.0.jar
+END
+ueditor-mini.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tvcms/!svn/ver/155/source/tvcms/WebContent/WEB-INF/lib/ueditor-mini.jar
+END
+jackson-core-lgpl-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/jackson-core-lgpl-1.2.1.jar
+END
+mysql-connector-java-5.1.24-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/mysql-connector-java-5.1.24-bin.jar
+END
+ognl-2.6.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tvcms/!svn/ver/241/source/tvcms/WebContent/WEB-INF/lib/ognl-2.6.7.jar
+END
+ueditor-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tvcms/!svn/ver/653/source/tvcms/WebContent/WEB-INF/lib/ueditor-1.1.1.jar
+END
+fastjson-1.1.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tvcms/!svn/ver/682/source/tvcms/WebContent/WEB-INF/lib/fastjson-1.1.15.jar
+END
+json.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tvcms/!svn/ver/653/source/tvcms/WebContent/WEB-INF/lib/json.jar
+END
+xstream-benchmark-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/xstream-benchmark-1.3.1.jar
+END
+lucene-highlighter-4.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/257/source/tvcms/WebContent/WEB-INF/lib/lucene-highlighter-4.7.0.jar
+END
+lucene-analyzers-common-4.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tvcms/!svn/ver/257/source/tvcms/WebContent/WEB-INF/lib/lucene-analyzers-common-4.7.0.jar
+END
+spring-core-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-core-3.2.8.RELEASE.jar
+END
+commons-lang3-3.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tvcms/!svn/ver/240/source/tvcms/WebContent/WEB-INF/lib/commons-lang3-3.3.2.jar
+END
+spring-instrument-tomcat-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-instrument-tomcat-3.2.8.RELEASE.jar
+END
+spring-orm-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-orm-3.2.8.RELEASE.jar
+END
+spring-expression-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-expression-3.2.8.RELEASE.jar
+END
+jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+END
+spring-jdbc-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-jdbc-3.2.8.RELEASE.jar
+END
+spring-oxm-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-oxm-3.2.8.RELEASE.jar
+END
+antlr-2.7.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/antlr-2.7.7.jar
+END
+lucene-queries-4.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tvcms/!svn/ver/257/source/tvcms/WebContent/WEB-INF/lib/lucene-queries-4.7.0.jar
+END
+commons-codec-1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tvcms/!svn/ver/653/source/tvcms/WebContent/WEB-INF/lib/commons-codec-1.9.jar
+END
+hibernate-commons-annotations-4.0.1.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar
+END
+jandex-1.1.0.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/jandex-1.1.0.Final.jar
+END
+hibernate-commons-annotations-4.0.2.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar
+END
+xerces-2.6.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/xerces-2.6.2.jar
+END
+lucene-facet-4.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tvcms/!svn/ver/257/source/tvcms/WebContent/WEB-INF/lib/lucene-facet-4.7.0.jar
+END
+lucene-queryparser-4.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/257/source/tvcms/WebContent/WEB-INF/lib/lucene-queryparser-4.7.0.jar
+END
+hibernate-jpa-2.0-api-1.0.1.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar
+END
+hibernate-core-4.2.12.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/hibernate-core-4.2.12.Final.jar
+END
+spring-web-3.2.8.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tvcms/!svn/ver/3/source/tvcms/WebContent/WEB-INF/lib/spring-web-3.2.8.RELEASE.jar
+END

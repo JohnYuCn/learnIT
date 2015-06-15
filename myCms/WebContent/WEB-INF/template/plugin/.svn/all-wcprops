@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/plugin
+END
+queryComment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/plugin/queryComment.jsp
+END
+updateAdvert.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/plugin/updateAdvert.jsp
+END
+updateMessageBoard.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/plugin/updateMessageBoard.jsp
+END
+updateOrAddMail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tvcms/!svn/ver/743/source/tvcms/WebContent/WEB-INF/template/plugin/updateOrAddMail.jsp
+END
+platformSet.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/plugin/platformSet.jsp
+END
+smsRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/plugin/smsRecord.jsp
+END
+queryMailList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/plugin/queryMailList.jsp
+END
+updateComment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/plugin/updateComment.jsp
+END
+queryAdvert.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/plugin/queryAdvert.jsp
+END
+receptionComment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/plugin/receptionComment.jsp
+END
+sendSms.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/plugin/sendSms.jsp
+END
+updateOrAddMailGroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/plugin/updateOrAddMailGroup.jsp
+END
+queryMsgField.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/plugin/queryMsgField.jsp
+END
+queryMailListGroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tvcms/!svn/ver/742/source/tvcms/WebContent/WEB-INF/template/plugin/queryMailListGroup.jsp
+END
+queryMessageBoard.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/plugin/queryMessageBoard.jsp
+END
+showImage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tvcms/!svn/ver/723/source/tvcms/WebContent/WEB-INF/template/plugin/showImage.jsp
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/error
+END
+500.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/error/500.jsp
+END
+404.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/error/404.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tvcms/!svn/ver/737/source/tvcms/WebContent/WEB-INF/template/error/error.jsp
+END
