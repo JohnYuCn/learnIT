@@ -35,9 +35,12 @@ public class TestSingleEntity {
 		User u = new User();
 		u.setAge(102);
 		u.setUname("john");
+		u.getTels().add("abc");
+		u.getTels().add("xyz");
 		manager.getTransaction().begin();
 		manager.persist(u);
 		manager.getTransaction().commit();
+		System.out.println(u.getId());
 	}
 
 	@Test
@@ -45,6 +48,7 @@ public class TestSingleEntity {
 		User u=manager.find(User.class, 1);
 //		User u=manager.find(User.class, 100); 此时u为null
 		System.out.println(u.getId()+","+u.getUname());
+
 	}
 	@Test
 	public void testReference(){
