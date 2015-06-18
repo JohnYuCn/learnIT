@@ -25,8 +25,8 @@ public class Addr {
 	private Integer id;
 	private String addrName;
 	
-	@OneToOne(cascade=CascadeType.REFRESH,fetch=FetchType.LAZY,targetEntity=User.class)
-	@JoinColumn(name="u_id",nullable=false)
+	@ManyToOne(cascade=CascadeType.PERSIST,fetch=FetchType.LAZY,targetEntity=User.class)
+	@JoinColumn(name="u_id")
 	private User u;
 	
 	public User getU() {

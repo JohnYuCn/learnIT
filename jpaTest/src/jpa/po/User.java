@@ -56,16 +56,7 @@ public class User {
 	@JoinTable(name="tels",joinColumns=@JoinColumn(name="u_id"))
 	private Set<String> tels=new HashSet<String>();
 	
-	@OneToOne(mappedBy="u",cascade=CascadeType.PERSIST,fetch=FetchType.LAZY,targetEntity=Addr.class)
-	private Addr addr;
 	
-	public Addr getAddr() {
-		return addr;
-	}
-
-	public void setAddr(Addr addr) {
-		this.addr = addr;
-	}
 
 	public Set<String> getTels() {
 		return tels;

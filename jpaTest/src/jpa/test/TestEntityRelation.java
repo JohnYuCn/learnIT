@@ -4,6 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import javax.transaction.Transaction;
 
 import jpa.po.Addr;
 import jpa.po.User;
@@ -21,6 +22,7 @@ public class TestEntityRelation {
 	@BeforeClass
 	public static void beforClass() {
 		factory = Persistence.createEntityManagerFactory("qs");//也称为持久化单元
+		
 	}
 	@Before
 	public void before() {
@@ -42,21 +44,26 @@ public class TestEntityRelation {
 		u.setAge(102);
 		u.setUname("john1");
 		Addr a1=new Addr();
-		a1.setAddrName("北京");
+		a1.setAddrName("bj");
 		a1.setU(u);
+		Addr a2=new Addr();
+		a2.setAddrName("sh");
+		a2.setU(u);
 		manager.getTransaction().begin();
-		manager.persist(u);//只有在不级联情况下使用
-		manager.persist(a1);
+		manager.persist(a1);//此时有级联情况下使用,将会将u转为受控态
+		manager.persist(a2);//关联的u已成为受控态
 		manager.getTransaction().commit();
 		System.out.println(u.getId());
 	}
 	
-	//为EAGER的情况下进行级联查询
+	
 	@Test
 	public void testFind() {
-		Addr a=manager.find(Addr.class, 1);
+		Addr a1=manager.find(Addr.class, 1);
+		Hibernate.initialize(a1.getU());//当为Layzy时，此时只会查一次user表，高效率！！！
+		Addr a2=manager.find(Addr.class, 2);//当为EAGER时，两次都会进行连接查询user
 //		User u=manager.find(User.class, 100); 此时u为null
-		System.out.println(a.getId()+","+a.getAddrName());
+		System.out.println(a1.getId()+","+a1.getAddrName());
 
 	}
 	
@@ -89,19 +96,29 @@ public class TestEntityRelation {
 		//此时a仍然为游离态，对其做的更新不会同步到数据库
 		tx.commit();
 	}
-	
+//	必须将多方所有对象都删除，才可以正常的删除一方的对象
 	@Test
 	public void testDelete(){
 		EntityTransaction tx=manager.getTransaction();
+		try{
+		
 		tx.begin();
-		Addr a=manager.getReference(Addr.class, 5);
-		manager.remove(a);//此时设置为cascad=remove时，会进行级联删除
+		Addr a=manager.getReference(Addr.class, 3);
+		Addr a2=manager.getReference(Addr.class, 4);
+		manager.remove(a);//此时设置为cascad=remove时，会进行级联删除,但如果没有a2的删除，会破坏数据的“参照完照性”
+		manager.remove(a2);
 		tx.commit();//只有在清理时才会发生删除动作
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			System.out.println(tx.isActive());
+			tx.rollback();
+		}
 	}
 	
 	@Test
 	public void testRefersh(){
-		Addr a=manager.find(Addr.class, 3);
+		Addr a=manager.find(Addr.class, 2);
 		a.setAddrName("ccd");
 		a.getU().setUname("csers");//将u加载，并将其变脏
 		
@@ -112,6 +129,17 @@ public class TestEntityRelation {
 		manager.refresh(a);//将数据库的数据根据数据变脏与否自动进行重新加载，此时如果设置cascade=refersh时，也会对User进行脏检查
 		manager.getTransaction().commit();//此时由于数据已数据库保持同步，所以不会发生清理动作。
 		System.out.println(a.getAddrName()+"....."+a.getU().getUname());
+	}
+	
+	@Test
+	public void testDetach(){
+		EntityTransaction tx=manager.getTransaction();
+		tx.begin();
+		Addr a=manager.find(Addr.class, 2);
+		Hibernate.initialize(a.getU());//此处不加载，当a变游离再操作 User时会抛出LazyInitialztionExcption
+		manager.detach(a);//此时casade=detach,将会影响 User 的状态
+		a.getU().setAge(134);
+		tx.commit();
 	}
 	
 	
