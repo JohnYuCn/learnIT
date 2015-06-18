@@ -94,9 +94,9 @@ public class TestEntityRelation {
 	public void testDelete(){
 		EntityTransaction tx=manager.getTransaction();
 		tx.begin();
-		Addr a=manager.getReference(Addr.class, 2);
+		Addr a=manager.getReference(Addr.class, 5);
 		manager.remove(a);//此时设置为cascad=remove时，会进行级联删除
-		tx.commit();
+		tx.commit();//只有在清理时才会发生删除动作
 	}
 	
 	@Test

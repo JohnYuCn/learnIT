@@ -24,7 +24,7 @@
 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
 			<property name="hibernate.show_sql" value="true" />
-			<property name="hibernate.format_sql" value="true"/>
+			<!-- <property name="hibernate.format_sql" value="true"/> -->
 			 <property name="hibernate.hbm2ddl.auto" value="update"/> <!--create,create-drop,update,validate  -->
 		</properties>
 	</persistence-unit>
