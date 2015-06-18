@@ -6,7 +6,7 @@
 
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>jpa.jpo.User</class>
-		
+		<class>jpa.jpo.Addr</class>
 		<properties>
 			<!-- 标准配置方法，适用性高 -->
 			<!-- 

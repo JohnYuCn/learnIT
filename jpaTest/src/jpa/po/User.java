@@ -23,6 +23,7 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToOne;
 import javax.persistence.MapKey;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -38,26 +39,39 @@ public class User {
 	private Integer id;
 	private String uname;
 	private int age;
+	
+	//boolean 类型的映射
 	@Column(columnDefinition="char(2)")
 	//@org.hibernate.annotations.TypeType(type="yes_no")
 	private boolean sex;
+	
+	//组件类
 	@Embedded
 	@AttributeOverrides({@AttributeOverride(name="firstName",column=@Column(name="first_name"))
 	,@AttributeOverride(name="lastName",column=@Column(name="last_name"))})
 	private FullName fullName;
-	
+
+	//值类型集合
 	@ElementCollection(fetch=FetchType.EAGER)
 	@JoinTable(name="tels",joinColumns=@JoinColumn(name="u_id"))
+	private Set<String> tels=new HashSet<String>();
 	
-	private List<String> tels=new ArrayList<String>();
-	
-	
-	
-	public List<String> getTels() {
+//	@OneToOne(mappedBy="u")
+//	private Addr addr;
+//	
+//	public Addr getAddr() {
+//		return addr;
+//	}
+//
+//	public void setAddr(Addr addr) {
+//		this.addr = addr;
+//	}
+
+	public Set<String> getTels() {
 		return tels;
 	}
 
-	public void setTels(List<String> tels) {
+	public void setTels(Set<String> tels) {
 		this.tels = tels;
 	}
 
@@ -67,17 +81,6 @@ public class User {
 
 	public void setSex(boolean sex) {
 		this.sex = sex;
-	}
-
-	@OneToMany(mappedBy = "u", fetch = FetchType.LAZY)
-	private Set<Addr> addrs = new HashSet<Addr>();
-
-	public Set<Addr> getAddrs() {
-		return addrs;
-	}
-
-	public void setAddrs(Set<Addr> addrs) {
-		this.addrs = addrs;
 	}
 
 	public Integer getId() {
