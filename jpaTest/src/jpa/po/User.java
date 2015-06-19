@@ -54,6 +54,7 @@ public class User {
 	//值类型集合
 	@ElementCollection(fetch=FetchType.EAGER)
 	@JoinTable(name="tels",joinColumns=@JoinColumn(name="u_id"))
+	@Column(name="telCode")
 	private Set<String> tels=new HashSet<String>();
 	
 	
