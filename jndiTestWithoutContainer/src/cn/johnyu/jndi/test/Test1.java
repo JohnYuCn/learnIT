@@ -10,14 +10,15 @@ public class Test1 {
 
 	public static void main(String[] args) throws Exception {
 
-		// ·þÎñÆ÷ÊµÏÖ
+		//sdsdsdf
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½
 		Hashtable<String, String> env = new Hashtable<String, String>();
 		env.put(Context.INITIAL_CONTEXT_FACTORY,
 				"org.apache.naming.java.javaURLContextFactory");
 		Context ctx = new InitialContext(env);
 		ctx.rebind("bd", new Date());
 
-		// ¿Í»§¶ËÊµÏÖ
+		// ï¿½Í»ï¿½ï¿½ï¿½Êµï¿½ï¿½
 		// Context ctx=new InitialContext(env);
 		Date d = (Date) ctx.lookup("bd");
 		System.out.println(d);
